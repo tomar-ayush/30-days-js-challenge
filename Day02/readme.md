@@ -6,5 +6,3 @@ is double equal to there is no type checking and in triple equal to there is typ
 - 1 === '1' is false
 - 0 == false is true
 - 0 === false is false
-
-aa
