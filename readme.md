@@ -56,3 +56,38 @@ In double equal to there is no type checking and in triple equal to there is typ
 # Higher Order Function
 
 Higher Order Function operate on other functions by taking them as arguments or returning them from function or both.
+
+
+<br>
+
+# Array Common Functions
+
+ - ___shift() method :__  
+    It is used to remove an element from the first position of the arr.  
+
+    > let arr = [1, 2, 3, 4, 5]  
+    > arr.shift() // arr = 2, 3, 4, 5
+
+    - ___unshift() method :__
+      This method is used to add and ele to the begining of the arr.  
+
+      >arr.unshift(9) // arr= 9, 2, 3, 4, 5
+
+    - __map() method:__
+      iterate over an obj
+
+    - __filter() method__:
+      only returns the values that matches passed condition.  
+
+    - __reduce() method :__
+      It passes two values __accumulator__ and __values__. Accumulator is the value the function returns.  
+
+      > const totalPrice = items.reduce((accumulator ,item) => {  
+      > return accumulator += item.price;  
+      > }, 0)  
+
+    - __forEach() function :__
+      iterate over each elemet of the given obj
+
+      
+  
