@@ -89,5 +89,8 @@ Higher Order Function operate on other functions by taking them as arguments or 
     - __forEach() function :__
       iterate over each elemet of the given obj
 
-      
-  
+    <br>    
+
+    ### this keyword cannot be used inside an arrow function we have to use normal function to use this key inside nested objects
+
+    
