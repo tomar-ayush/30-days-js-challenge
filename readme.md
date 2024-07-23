@@ -93,4 +93,12 @@ Higher Order Function operate on other functions by taking them as arguments or 
 
     ### this keyword cannot be used inside an arrow function we have to use normal function to use this key inside nested objects
 
-    
+    ### Spread and Rest Operators
+      - __Spread__ - This operator defined by placing three dots before an array or an object. It is used to destruchure an object.
+      - __Rest__ - rest parameter syntax allows an function to take indefinate no of values as arguments.
+        >function add(...args) {  
+        >  let sum = 0;  
+        >  for (const arg of args){  
+        >     sum += args;  
+        >  }    
+        >}  
